@@ -19,6 +19,7 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
+    <plugin name="cordova-plugin-device" source="npm" spec="~1.1.1" />
     <platform name="android">
         <allow-intent href="market:*" />
         <custom-preference name="android-minSdkVersion" value="21" />
