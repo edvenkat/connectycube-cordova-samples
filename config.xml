@@ -20,9 +20,9 @@
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
     <plugin name="cordova-plugin-device" source="npm" spec="~1.1.1" />
-    <plugin spec="https://github.com/NeoLSN/cordova-plugin-android-permissions" />
+    
     <plugin spec="https://github.com/dpa99c/cordova-custom-config" />
-   
+   <plugin spec="https://github.com/NeoLSN/cordova-plugin-android-permissions" />
     <platform name="android">
         <allow-intent href="market:*" />
         <custom-preference name="android-minSdkVersion" value="21" />
